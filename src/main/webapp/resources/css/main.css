@@ -1,0 +1,68 @@
+@CHARSET "UTF-8";
+
+.formtable {
+    width: 90%;
+    border-top: 1px solid #bc8ccc;
+ 	margin: 50px;
+	border-collapse: collapse;
+	text-align: center;
+	background-color: #8080c0;
+}
+
+.first_tr {
+	background-color: #8000ff;
+	color: #ffffff;
+}
+
+th, td {
+	border-bottom: 1px solid #000000;
+	padding: 10px;
+}
+
+.table_hover:hover {
+	background-color: #caaad5;
+}
+
+tbody tr:nth-child(2n) {
+	background-color: #dab1da;
+}
+
+tbody tr:nth-child(2n+1) {
+	background-color: #bd86d2;
+}
+
+.label {
+	text-align: right;
+	vertical-align: top;
+}
+
+.control {
+	margin-left: 10px;
+}
+
+.error {
+	font-size: small;
+	color: red;
+	margin-left: 10px;
+}
+
+textarea {
+	width: 300px;
+	height: 100px;
+}
+
+input[type="text"], input[type="password"] {
+	width: 300px;
+	border-width: 1px;
+	padding: 2px;
+}
+
+input[type="submit"] {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+}
+
+input[type="submit"]:hover {
+	background-color: #ff0080;
+}
